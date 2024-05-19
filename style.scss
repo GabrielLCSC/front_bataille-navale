@@ -1,0 +1,33 @@
+.grid-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.grid div {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#error{
+    color: red;
+}
+
+h1{
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+  }
+  
+  .cell {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+  }
